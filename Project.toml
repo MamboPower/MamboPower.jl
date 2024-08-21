@@ -1,0 +1,13 @@
+name = "MamboPower"
+uuid = "066b5b2a-e6b1-481c-963e-71c9f36a2a60"
+authors = ["Manho Joung"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.6.7"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
